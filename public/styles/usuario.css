@@ -1,0 +1,58 @@
+/* table {
+  border-collapse: collapse;
+  width: 100%;
+} */
+.usuario-title {
+  display: inline-block;
+  padding-bottom: 4px;
+  font-size: 2rem;
+  width: 50%;
+  color: #d61c1c;
+  text-align: center;
+  border-bottom: 1px solid #d61c1c;
+}
+
+.msg-empty {
+  color: #555;
+}
+
+.link-usuario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 150px;
+  background-color: #fff;
+  color: #333;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.link-usuario:visited {
+  color: #333;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* th {
+  color: var(--red);
+  background-color: #222;
+}
+
+td,
+th {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #d4d4d4;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+} */
